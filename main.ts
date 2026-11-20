@@ -4,6 +4,9 @@
 // the person to upload to YouTube. This program only copies VIDEO.json — the
 // video's address — into /output, where the gate reads it. Nothing this
 // program writes about the video is scored.
+// VIDEO.json must name the published public video, as YouTube's Share button
+// gives it (https://www.youtube.com/shorts/<id>), and the video stays public
+// until the results are out.
 //
 // Run it the way the grader does:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
